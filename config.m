@@ -32,7 +32,7 @@ fIF = fL1 - fOL;   % Intermediate frequency [Hz]
 
 delay_resolution = dec_ratio / fs * fc;   % Delay resolution [chips]
 delay_initial = 0;                        % Initial delay [chips]
-delay0 = (0 : delay_resolution : Ti * fc - delay_resolution);   % % delay axis starting in 0 chips
+delay0 = (0 : delay_resolution : Ti * fc - delay_resolution);   % delay axis starting in 0 chips
 Lt = length(delay0);                      % Number of delay bins
 
 %% Doppler bins
