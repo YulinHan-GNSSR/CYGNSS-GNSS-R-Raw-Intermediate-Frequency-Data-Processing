@@ -1,4 +1,4 @@
-%% project: GNSS-R_raw_data_processing
+%% project: CYGNSS-GNSS-R-Raw-Intermediate-Frequency-Data-Processing
 % Configuration script for CYGNSS raw IF data processing.
 % Based on the original GNSS-R raw IF MATLAB processing scripts
 % by Santiago, with modifications for this repository.
