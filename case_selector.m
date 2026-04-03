@@ -22,76 +22,11 @@
 
 switch caseID
 
-    case 0 % T.C. Harvey cyg06
+    case 0 % 
 
-        file = char("cyg06_raw_if_s20170825_141030_e20170825_141130");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20170825-000228-e20170825-235959.l1.power-brcs.a21.d21.nc";
-        ddmID = 3; channel = 2;
-
-    case 1 % Mississippi River cyg06
-
-        file = char("cyg06_raw_if_s20190323_010954_e20190323_011038");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20190323-000000-e20190323-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 0; channel = 2;
-
-    case 2 % Mississippi River cyg06
-
-        file = char("cyg06_raw_if_s20190323_010954_e20190323_011038");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20190323-000000-e20190323-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 2; channel = 2;
-    
-    case 3 % Mississippi River cyg06
-
-        file = char("cyg06_raw_if_s20190323_010954_e20190323_011038");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20190323-000000-e20190323-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 3; channel = 1;
-
-    case 4 % H. Iota Central America cyg04
-
-        file = char("cyg04_raw_if_s20201117_002514_e20201117_002614");
-        L1meta_filename = folder_path+"cyg04.ddmi.s20201117-000000-e20201117-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 3; channel = 2;
-
-    case 5 % H. Iota Central America cyg04
-
-        file = char("cyg04_raw_if_s20201117_002514_e20201117_002614");
-        L1meta_filename = folder_path+"cyg04.ddmi.s20201117-000000-e20201117-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 0; channel = 1;
-
-    case 6  % Registro dante
-        file = char("cyg08_raw_if_s20220305_155152_e20220305_155252");
-        L1meta_filename = folder_path+"cyg08.ddmi.s20220305-000000-e20220305-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 0; channel = 1;
-
-    case 7  % Registro dante
-        file = char("cyg08_raw_if_s20220305_155152_e20220305_155252");
-        L1meta_filename = folder_path+"cyg08.ddmi.s20220305-000000-e20220305-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 3; channel = 2;
-
-    case 8
-        file = char("cyg04_raw_if_s20230916_224422_e20230916_224522");
-        L1meta_filename = folder_path+"cyg04.ddmi.s20230916-000000-e20230916-232251.l1.power-brcs.a31.d32.nc";
-        ddmID = 1; channel = 1;
-
-    case 9
-        file = char("cyg04_raw_if_s20230916_224422_e20230916_224522");
-        L1meta_filename = folder_path+"cyg04.ddmi.s20230916-000000-e20230916-232251.l1.power-brcs.a31.d32.nc";
-        ddmID = 2; channel = 2;
-
-    case 10 % SWOT A Amazon
-        file = char("cyg06_raw_if_s20220429_110235_e20220429_110335");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20220429-000000-e20220429-235959.l1.power-brcs.a31.d32.nc";
+        file = char("cyg04_raw_if_s20250112_092106_e20250112_092136");
+        L1meta_filename = folder_path+"cyg04.ddmi.s20250112-000000-e20250112-235959.l1.power-brcs.a32.d33.nc";
         ddmID = 2; channel = 1;
-            
-    case 11 % SWOT A Amazon
-        file = char("cyg06_raw_if_s20220429_110235_e20220429_110335");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20220429-000000-e20220429-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 0; channel = 1;
-
-    case 12 % SWOT A Amazon
-        file = char("cyg06_raw_if_s20220429_110235_e20220429_110335");
-        L1meta_filename = folder_path+"cyg06.ddmi.s20220429-000000-e20220429-235959.l1.power-brcs.a31.d32.nc";
-        ddmID = 3; channel = 2;
         
 end
 
