@@ -60,6 +60,7 @@ The GPU is used for:
 ├── cacode_gps_ca.cpp            # GPS L1 C/A code generator
 ├── cacode_gps_ca.h              # Header for C/A code generator
 └── README.md
+```
 
 ## Processing Flow
 
