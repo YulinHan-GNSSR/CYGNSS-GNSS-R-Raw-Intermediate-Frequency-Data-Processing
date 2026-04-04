@@ -13,7 +13,7 @@ data.CH0LOFreq = bi2de([de2bi(DRT0packet(17),8,'left-msb') de2bi(DRT0packet(18),
 data.CH1FrontEndSelection = DRT0packet(21);
 data.CH1LOFreq = bi2de([de2bi(DRT0packet(22),8,'left-msb') de2bi(DRT0packet(23),8,'left-msb') de2bi(DRT0packet(24),8,'left-msb') de2bi(DRT0packet(25),8,'left-msb')],'left-msb');
 data.CH2FrontEndSelection = DRT0packet(26);
-data.CH2LOFreq = bi2de([de2bi(DRT0packet(27),8,'left-msb') de2bi(DRT0packet(28),8,'left-msb') de2bi(DRT0packet(19),8,'left-msb') de2bi(DRT0packet(30),8,'left-msb')],'left-msb');
+data.CH2LOFreq = bi2de([de2bi(DRT0packet(27),8,'left-msb') de2bi(DRT0packet(28),8,'left-msb') de2bi(DRT0packet(29),8,'left-msb') de2bi(DRT0packet(30),8,'left-msb')],'left-msb');
 data.CH3FrontEndSelection = DRT0packet(31);
 data.CH3LOFreq = bi2de([de2bi(DRT0packet(32),8,'left-msb') de2bi(DRT0packet(33),8,'left-msb') de2bi(DRT0packet(34),8,'left-msb') de2bi(DRT0packet(35),8,'left-msb')],'left-msb');
 
