@@ -44,6 +44,7 @@ meta.sp_rx_gain = sp_rx_gain(ddmID+1, start_index : end_index);
 % represented by their color as reported in the metadata.
 
 if plot_tracks == 1
+    figure(101); clf;
     % geobasemap 'satellite'
     geobasemap 'landcover'
     colormap winter
