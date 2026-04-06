@@ -1,6 +1,7 @@
 # CYGNSS GNSS-R Raw Intermediate Frequency Data Processing
 
-MATLAB scripts for processing GPS L1 C/A reflected signals from CYGNSS Level 1 Raw Intermediate Frequency (IF) Data Records, with GPU acceleration for the correlation stage through CUDA MEX.
+## MATLAB + CUDA MEX framework for efficient generation of delay-Doppler maps (DDMs) and waveforms from CYGNSS raw IF data.
+This project extends the original MATLAB-based CYGNSS raw IF processing workflow with GPU acceleration for the computational bottleneck, making the reflected-signal processing chain more efficient, scalable, and suitable for larger data-processing experiments.
 
 ## Overview
 
@@ -92,6 +93,10 @@ This version has been modified and extended with GPU acceleration.
 
 ## The main changes in this repository include:
 
-- replacement of the original MATLAB coherent correlation stage with a CUDA MEX implementation
-- addition of GPU-based Doppler compensation, frequency-domain correlation, and DDM accumulation
-- integration of build and timing support for GPU execution
+- replacing the original MATLAB coherent correlation stage with a CUDA MEX implementation
+- adding GPU-based Doppler compensation
+- adding GPU-based frequency-domain correlation
+- adding GPU-based inverse FFT and DDM accumulation
+- integrating GPU build support and acceleration-oriented workflow restructuring
+
+In short, this repository mainly contributes an engineering-oriented GPU acceleration of the original CYGNSS raw IF processing chain.
